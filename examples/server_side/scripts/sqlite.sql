@@ -1,23 +1,22 @@
-# DataTables server-side processing example database structure and dataTables
+--
+-- DataTables Ajax and server-side processing database (SQLite)
+--
+DROP TABLE IF EXISTS datatables_demo;
 
-DROP TABLE IF EXISTS `datatables-demo`;
-
-CREATE TABLE `datatables-demo` (
-  `id`         int(10) NOT NULL auto_increment,
-  `first_name` varchar(250) NOT NULL default '',
-  `last_name`  varchar(250) NOT NULL default '',
-  `position`   varchar(250) NOT NULL default '',
-  `email`      varchar(250) NOT NULL default '',
-  `office`     varchar(250) NOT NULL default '',
-  `start_date` timestamp DEFAULT CURRENT_TIMESTAMP,
-  `age`        int(8),
-  `salary`     int(8),
-  `extn`       int(8),
-  PRIMARY KEY  (`id`)
+CREATE TABLE datatables_demo (
+	id         integer primary key,
+	first_name text NOT NULL default '',
+	last_name  text NOT NULL default '',
+	position   text NOT NULL default '',
+	email      text NOT NULL default '',
+	office     text NOT NULL default '',
+	start_date timestamp without time zone DEFAULT CURRENT_TIMESTAMP,
+	age        integer,
+	salary     integer,
+	extn       text NOT NULL default ''
 );
 
-INSERT
-	INTO `datatables-demo`
+INSERT INTO datatables_demo
 		( id, first_name, last_name, age, position, salary, start_date, extn, email, office ) 
 	VALUES
 		( 1, 'Tiger', 'Nixon', 61, 'System Architect', 320800, '2011/04/25', 5421, 't.nixon@datatables.net', 'Edinburgh' ),
