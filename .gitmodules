@@ -1,0 +1,6 @@
+[submodule "extensions/FixedColumns"]
+	path = extensions/FixedColumns
+	url = git@github.com:DataTables/FixedColumns.git
+[submodule "extensions/FixedHeader"]
+	path = extensions/FixedHeader
+	url = git@github.com:DataTables/FixedHeader.git
