@@ -29,9 +29,6 @@
 (function( factory ) {
 	"use strict";
 
-	// Define as an AMD module if possible
-	if ( typeof define === 'function' && define.amd )
-	{
 	if ( typeof define === 'function' && define.amd ) {
 		// Define as an AMD module if possible
 		// PM-kd:  Need to remove 'datatables' named define if we have multiple versions.
