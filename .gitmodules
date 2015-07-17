@@ -6,4 +6,4 @@
 	url = git@github.com:DataTables/FixedHeader.git
 [submodule "extensions/Scroller"]
 	path = extensions/Scroller
-	url = git@github.com:DataTables/Scroller.git
+	url = git@github.com:performancematters/Scroller.git
