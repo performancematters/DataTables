@@ -7,3 +7,12 @@
 [submodule "extensions/Scroller"]
 	path = extensions/Scroller
 	url = git@github.com:performancematters/Scroller.git
+[submodule "extensions/Buttons"]
+	path = extensions/Buttons
+	url = git@github.com:performancematters/Buttons.git
+[submodule "extensions/Select"]
+	path = extensions/Select
+	url = git@github.com:performancematters/Select.git
+[submodule "extensions/KeyTable"]
+	path = extensions/KeyTable
+	url = git@github.com:performancematters/KeyTable.git
