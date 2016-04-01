@@ -33,7 +33,7 @@
 		// Define as an AMD module if possible
 		// PM-kd:  Need to remove 'datatables' named define if we have multiple versions.
 		// define(['jquery'], factory );
-		define( 'datatables', ['jquery'], factory );
+		define(['jquery'], factory );
 	}
     else if ( typeof exports === 'object' ) {
         // Node/CommonJS
