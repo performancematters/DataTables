@@ -16,3 +16,6 @@
 [submodule "extensions/KeyTable"]
 	path = extensions/KeyTable
 	url = git@github.com:performancematters/KeyTable.git
+[submodule "plugins"]
+	path = plugins
+	url = git@github.com:performancematters/DataTables-Plugins.git
