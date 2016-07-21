@@ -19,3 +19,6 @@
 [submodule "plugins"]
 	path = plugins
 	url = git@github.com:performancematters/DataTables-Plugins.git
+[submodule "extensions/Responsive"]
+	path = extensions/Responsive
+	url = git@github.com:performancematters/DataTables-Responsive.git
